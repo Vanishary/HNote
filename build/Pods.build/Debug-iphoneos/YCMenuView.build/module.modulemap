@@ -1,0 +1,6 @@
+framework module YCMenuView {
+  umbrella header "YCMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,92 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MarkdownView-Swift.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers/MarkdownView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MarkdownView-umbrella.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/Pods/Target Support Files/MarkdownView/MarkdownView-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Pods.build/Debug-iphoneos/MarkdownView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/Pods_HNote.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-HNote-umbrella.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/Pods/Target Support Files/Pods-HNote/Pods-HNote-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_HNote-Swift.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/Pods_HNote.framework/Headers/Pods_HNote-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/Pods_HNote.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Pods.build/Debug-iphoneos/Pods-HNote.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/YCMenuView/YCMenuView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YCMenuView-Swift.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/YCMenuView/YCMenuView.framework/Headers/YCMenuView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YCMenuView-umbrella.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/Pods/Target Support Files/YCMenuView/YCMenuView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "YCMenuView.h",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/Pods/YCMenuView/YCMenuViewCompont/YCMenuView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/YCMenuView/YCMenuView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/hongweihui/Documents/IOS/HNote/build/Pods.build/Debug-iphoneos/YCMenuView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

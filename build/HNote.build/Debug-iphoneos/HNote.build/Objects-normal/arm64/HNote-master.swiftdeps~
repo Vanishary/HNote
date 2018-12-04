@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "7a4ad364de0d37413aa2d06141f25d74"
+build_time: [1543621915, 896361000]
+inputs:
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/EWPopMenu/PopMenu.swift": [1543621883, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/ViewController.swift": [1543493870, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/view/NotesTableCellView.swift": [1543245902, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/NoteItem+CoreDataClass.swift": [1543407679, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/view/SidebarTableView.swift": [1543487203, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/NoteContentController.swift": [1543594509, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/view/NotesTableView.swift": [1543494776, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/coreData/CoreDataManager.swift": [1543490480, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/EWPopMenu/MenuTableViewCell.swift": [1543621883, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/RichTextController.swift": [1543493691, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/view/SidebarTableCellView.swift": [1543241772, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/EWPopMenu/PopMenuView.swift": [1543621883, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/NoteItem+CoreDataProperties.swift": [1543461501, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/SettingViewController.swift": [1543501819, 0]
+  "/Users/hongweihui/Documents/IOS/HNote/HNote/AppDelegate.swift": [1543385153, 0]

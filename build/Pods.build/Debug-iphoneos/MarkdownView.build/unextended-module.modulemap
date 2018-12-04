@@ -1,0 +1,10 @@
+framework module MarkdownView {
+  umbrella header "MarkdownView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MarkdownView.__Swift {
+    exclude header "MarkdownView-Swift.h"
+}

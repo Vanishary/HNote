@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "5316190c0112450473315cb8ce0f8e4b"
+build_time: [1543621733, 690648000]
+inputs:
+  "/Users/hongweihui/Documents/IOS/HNote/Pods/MarkdownView/MarkdownView/MarkdownView.swift": [1543407394, 0]

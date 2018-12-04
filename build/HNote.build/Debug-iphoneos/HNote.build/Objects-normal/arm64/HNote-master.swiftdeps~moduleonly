@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "a1155f3f4d6228f6230b7e3f0e8324b3"
+build_time: [1543625595, 839832000]
+inputs:
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/EWPopMenu/PopMenu.swift": [1543621883, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/ViewController.swift": [1543493870, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/view/NotesTableCellView.swift": [1543245902, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/NoteItem+CoreDataClass.swift": [1543407679, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/view/SidebarTableView.swift": [1543487203, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/NoteContentController.swift": [1543594509, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/view/NotesTableView.swift": [1543494776, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/coreData/CoreDataManager.swift": [1543490480, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/EWPopMenu/MenuTableViewCell.swift": [1543621883, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/RichTextController.swift": [1543493691, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/view/SidebarTableCellView.swift": [1543241772, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/EWPopMenu/PopMenuView.swift": [1543621883, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/NoteItem+CoreDataProperties.swift": [1543461501, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/SettingViewController.swift": [1543501819, 0]
+  "/Users/hongweihui/Desktop/IOS\u5927\u4F5C\u4E1A_\u6D2A\u4F1F\u8F89_18126278/HNote/HNote/AppDelegate.swift": [1543385153, 0]

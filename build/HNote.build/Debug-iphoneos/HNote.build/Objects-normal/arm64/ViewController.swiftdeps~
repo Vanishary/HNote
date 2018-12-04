@@ -1,0 +1,722 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "5HNote14ViewControllerC"
+provides-member:
+- ["5HNote14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "createNewNote"
+- "notesTableView"
+- "sideTableView"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "-"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGPoint"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NavigationMenuShared"
+- !private "NoteContentController"
+- "NotesTableView"
+- !private "RichTextController"
+- !private "ScreenInfo"
+- "SidebarTableView"
+- !private "String"
+- !private "StringLiteralType"
+- "UIViewController"
+- "ViewController"
+- !private "itemWidth"
+- !private "~="
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "noteTableView"]
+- !private ["So15CALayerDelegateP", "updateTable"]
+- !private ["So7CGPointV", "init"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "NavigationMenuShared"]
+- !private ["s7CVarArgP", "NoteContentController"]
+- !private ["s7CVarArgP", "RichTextController"]
+- !private ["s7CVarArgP", "ScreenInfo"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "itemWidth"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "noteTableView"]
+- !private ["s7CVarArgP", "notesTableView"]
+- !private ["s7CVarArgP", "pushViewController"]
+- !private ["s7CVarArgP", "setNavigationBarHidden"]
+- !private ["s7CVarArgP", "showPopMenuSelecteWithFrameWidth"]
+- !private ["s7CVarArgP", "sideTableView"]
+- !private ["s7CVarArgP", "updateTable"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "NavigationMenuShared"]
+- !private ["s28CustomDebugStringConvertibleP", "NoteContentController"]
+- !private ["s28CustomDebugStringConvertibleP", "RichTextController"]
+- !private ["s28CustomDebugStringConvertibleP", "ScreenInfo"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "itemWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "noteTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "notesTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setNavigationBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "showPopMenuSelecteWithFrameWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "sideTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTable"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "dataSource"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "noteTableView"]
+- !private ["s17CustomReflectableP", "updateTable"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "NavigationMenuShared"]
+- !private ["s23CustomStringConvertibleP", "NoteContentController"]
+- !private ["s23CustomStringConvertibleP", "RichTextController"]
+- !private ["s23CustomStringConvertibleP", "ScreenInfo"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemWidth"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "noteTableView"]
+- !private ["s23CustomStringConvertibleP", "notesTableView"]
+- !private ["s23CustomStringConvertibleP", "pushViewController"]
+- !private ["s23CustomStringConvertibleP", "setNavigationBarHidden"]
+- !private ["s23CustomStringConvertibleP", "showPopMenuSelecteWithFrameWidth"]
+- !private ["s23CustomStringConvertibleP", "sideTableView"]
+- !private ["s23CustomStringConvertibleP", "updateTable"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "dataSource"]
+- !private ["Se", "delegate"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "noteTableView"]
+- !private ["Se", "updateTable"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "dataSource"]
+- !private ["SE", "delegate"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "noteTableView"]
+- !private ["SE", "updateTable"]
+- !private ["SQ", "CGPoint"]
+- !private ["SQ", "NavigationMenuShared"]
+- !private ["SQ", "NoteContentController"]
+- !private ["SQ", "RichTextController"]
+- !private ["SQ", "ScreenInfo"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "dataSource"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "itemWidth"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "noteTableView"]
+- !private ["SQ", "notesTableView"]
+- !private ["SQ", "pushViewController"]
+- !private ["SQ", "setNavigationBarHidden"]
+- !private ["SQ", "showPopMenuSelecteWithFrameWidth"]
+- !private ["SQ", "sideTableView"]
+- !private ["SQ", "updateTable"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "dataSource"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "noteTableView"]
+- !private ["s23ExpressibleByNilLiteralP", "updateTable"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "CGPoint"]
+- !private ["SH", "NavigationMenuShared"]
+- !private ["SH", "NoteContentController"]
+- !private ["SH", "RichTextController"]
+- !private ["SH", "ScreenInfo"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "dataSource"]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "itemWidth"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "noteTableView"]
+- !private ["SH", "notesTableView"]
+- !private ["SH", "pushViewController"]
+- !private ["SH", "setNavigationBarHidden"]
+- !private ["SH", "showPopMenuSelecteWithFrameWidth"]
+- !private ["SH", "sideTableView"]
+- !private ["SH", "updateTable"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "NavigationMenuShared"]
+- !private ["So8NSCodingP", "NoteContentController"]
+- !private ["So8NSCodingP", "RichTextController"]
+- !private ["So8NSCodingP", "ScreenInfo"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "itemWidth"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "noteTableView"]
+- !private ["So8NSCodingP", "notesTableView"]
+- !private ["So8NSCodingP", "pushViewController"]
+- !private ["So8NSCodingP", "setNavigationBarHidden"]
+- !private ["So8NSCodingP", "sideTableView"]
+- !private ["So8NSCodingP", "updateTable"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "CGPoint"]
+- !private ["So26NSExtensionRequestHandlingP", "NavigationMenuShared"]
+- !private ["So26NSExtensionRequestHandlingP", "NoteContentController"]
+- !private ["So26NSExtensionRequestHandlingP", "RichTextController"]
+- !private ["So26NSExtensionRequestHandlingP", "ScreenInfo"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "itemWidth"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "notesTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "setNavigationBarHidden"]
+- !private ["So26NSExtensionRequestHandlingP", "sideTableView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGPoint"]
+- !private ["So8NSObjectC", "NavigationMenuShared"]
+- !private ["So8NSObjectC", "NoteContentController"]
+- ["So8NSObjectC", "NotesTableView"]
+- !private ["So8NSObjectC", "RichTextController"]
+- !private ["So8NSObjectC", "ScreenInfo"]
+- ["So8NSObjectC", "SidebarTableView"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "createNewNote"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "itemWidth"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "noteTableView"]
+- ["So8NSObjectC", "notesTableView"]
+- !private ["So8NSObjectC", "pushViewController"]
+- !private ["So8NSObjectC", "setNavigationBarHidden"]
+- !private ["So8NSObjectC", "showPopMenuSelecteWithFrameWidth"]
+- ["So8NSObjectC", "sideTableView"]
+- !private ["So8NSObjectC", "updateTable"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectP", "CGPoint"]
+- !private ["So8NSObjectP", "NavigationMenuShared"]
+- !private ["So8NSObjectP", "NoteContentController"]
+- !private ["So8NSObjectP", "RichTextController"]
+- !private ["So8NSObjectP", "ScreenInfo"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataSource"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "itemWidth"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "noteTableView"]
+- !private ["So8NSObjectP", "notesTableView"]
+- !private ["So8NSObjectP", "pushViewController"]
+- !private ["So8NSObjectP", "setNavigationBarHidden"]
+- !private ["So8NSObjectP", "showPopMenuSelecteWithFrameWidth"]
+- !private ["So8NSObjectP", "sideTableView"]
+- !private ["So8NSObjectP", "updateTable"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["5HNote21NoteContentControllerC", "deinit"]
+- !private ["5HNote21NoteContentControllerC", "init"]
+- !private ["5HNote14NotesTableViewC", "dataSource"]
+- !private ["5HNote14NotesTableViewC", "deinit"]
+- !private ["5HNote14NotesTableViewC", "delegate"]
+- !private ["5HNote14NotesTableViewC", "updateTable"]
+- !private ["Sq", "dataSource"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "noteTableView"]
+- !private ["Sq", "updateTable"]
+- !private ["5HNote7PopMenuC", "showPopMenuSelecteWithFrameWidth"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["5HNote18RichTextControllerC", "deinit"]
+- !private ["5HNote18RichTextControllerC", "init"]
+- !private ["5HNote10ScreenInfoV", "Width"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["5HNote16SidebarTableViewC", "dataSource"]
+- !private ["5HNote16SidebarTableViewC", "deinit"]
+- !private ["5HNote16SidebarTableViewC", "delegate"]
+- !private ["5HNote16SidebarTableViewC", "noteTableView"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "noteTableView"]
+- !private ["So29UIAccessibilityIdentificationP", "updateTable"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "noteTableView"]
+- !private ["So12UIAppearanceP", "updateTable"]
+- !private ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "NavigationMenuShared"]
+- !private ["So21UIAppearanceContainerP", "NoteContentController"]
+- !private ["So21UIAppearanceContainerP", "RichTextController"]
+- !private ["So21UIAppearanceContainerP", "ScreenInfo"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "itemWidth"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "noteTableView"]
+- !private ["So21UIAppearanceContainerP", "notesTableView"]
+- !private ["So21UIAppearanceContainerP", "pushViewController"]
+- !private ["So21UIAppearanceContainerP", "setNavigationBarHidden"]
+- !private ["So21UIAppearanceContainerP", "sideTableView"]
+- !private ["So21UIAppearanceContainerP", "updateTable"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "CGPoint"]
+- !private ["So18UIContentContainerP", "NavigationMenuShared"]
+- !private ["So18UIContentContainerP", "NoteContentController"]
+- !private ["So18UIContentContainerP", "RichTextController"]
+- !private ["So18UIContentContainerP", "ScreenInfo"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "itemWidth"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "notesTableView"]
+- !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "setNavigationBarHidden"]
+- !private ["So18UIContentContainerP", "sideTableView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "noteTableView"]
+- !private ["So17UICoordinateSpaceP", "updateTable"]
+- !private ["So23UIDataSourceTranslatingP", "dataSource"]
+- !private ["So23UIDataSourceTranslatingP", "delegate"]
+- !private ["So23UIDataSourceTranslatingP", "noteTableView"]
+- !private ["So23UIDataSourceTranslatingP", "updateTable"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "noteTableView"]
+- !private ["So13UIDynamicItemP", "updateTable"]
+- !private ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "NavigationMenuShared"]
+- !private ["So18UIFocusEnvironmentP", "NoteContentController"]
+- !private ["So18UIFocusEnvironmentP", "RichTextController"]
+- !private ["So18UIFocusEnvironmentP", "ScreenInfo"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "itemWidth"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "noteTableView"]
+- !private ["So18UIFocusEnvironmentP", "notesTableView"]
+- !private ["So18UIFocusEnvironmentP", "pushViewController"]
+- !private ["So18UIFocusEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UIFocusEnvironmentP", "sideTableView"]
+- !private ["So18UIFocusEnvironmentP", "updateTable"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "noteTableView"]
+- !private ["So11UIFocusItemP", "updateTable"]
+- !private ["So20UIFocusItemContainerP", "dataSource"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "noteTableView"]
+- !private ["So20UIFocusItemContainerP", "updateTable"]
+- !private ["So30UIFocusItemScrollableContainerP", "dataSource"]
+- !private ["So30UIFocusItemScrollableContainerP", "delegate"]
+- !private ["So30UIFocusItemScrollableContainerP", "noteTableView"]
+- !private ["So30UIFocusItemScrollableContainerP", "updateTable"]
+- !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "setNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "NavigationMenuShared"]
+- !private ["So30UIPasteConfigurationSupportingP", "NoteContentController"]
+- !private ["So30UIPasteConfigurationSupportingP", "RichTextController"]
+- !private ["So30UIPasteConfigurationSupportingP", "ScreenInfo"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "itemWidth"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "noteTableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "notesTableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNavigationBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "sideTableView"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateTable"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGPoint"]
+- !private ["So11UIResponderC", "NavigationMenuShared"]
+- !private ["So11UIResponderC", "NoteContentController"]
+- ["So11UIResponderC", "NotesTableView"]
+- !private ["So11UIResponderC", "RichTextController"]
+- !private ["So11UIResponderC", "ScreenInfo"]
+- ["So11UIResponderC", "SidebarTableView"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "createNewNote"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "itemWidth"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "noteTableView"]
+- ["So11UIResponderC", "notesTableView"]
+- !private ["So11UIResponderC", "pushViewController"]
+- !private ["So11UIResponderC", "setNavigationBarHidden"]
+- ["So11UIResponderC", "sideTableView"]
+- !private ["So11UIResponderC", "updateTable"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "NavigationMenuShared"]
+- !private ["So30UIResponderStandardEditActionsP", "NoteContentController"]
+- !private ["So30UIResponderStandardEditActionsP", "RichTextController"]
+- !private ["So30UIResponderStandardEditActionsP", "ScreenInfo"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "itemWidth"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "noteTableView"]
+- !private ["So30UIResponderStandardEditActionsP", "notesTableView"]
+- !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setNavigationBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "sideTableView"]
+- !private ["So30UIResponderStandardEditActionsP", "updateTable"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "dataSource"]
+- !private ["So12UIScrollViewC", "delegate"]
+- !private ["So12UIScrollViewC", "noteTableView"]
+- !private ["So12UIScrollViewC", "updateTable"]
+- !private ["So20UIScrollViewDelegateP", "dataSource"]
+- !private ["So20UIScrollViewDelegateP", "delegate"]
+- !private ["So20UIScrollViewDelegateP", "noteTableView"]
+- !private ["So20UIScrollViewDelegateP", "updateTable"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dataSource"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "delegate"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "noteTableView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "updateTable"]
+- !private ["So16UIStateRestoringP", "CGPoint"]
+- !private ["So16UIStateRestoringP", "NavigationMenuShared"]
+- !private ["So16UIStateRestoringP", "NoteContentController"]
+- !private ["So16UIStateRestoringP", "RichTextController"]
+- !private ["So16UIStateRestoringP", "ScreenInfo"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "itemWidth"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "notesTableView"]
+- !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "setNavigationBarHidden"]
+- !private ["So16UIStateRestoringP", "sideTableView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So11UITableViewC", "dataSource"]
+- !private ["So11UITableViewC", "delegate"]
+- !private ["So11UITableViewC", "noteTableView"]
+- !private ["So11UITableViewC", "updateTable"]
+- !private ["So21UITableViewDataSourceP", "dataSource"]
+- !private ["So21UITableViewDataSourceP", "delegate"]
+- !private ["So21UITableViewDataSourceP", "noteTableView"]
+- !private ["So21UITableViewDataSourceP", "updateTable"]
+- !private ["So19UITableViewDelegateP", "dataSource"]
+- !private ["So19UITableViewDelegateP", "delegate"]
+- !private ["So19UITableViewDelegateP", "noteTableView"]
+- !private ["So19UITableViewDelegateP", "updateTable"]
+- !private ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "NavigationMenuShared"]
+- !private ["So18UITraitEnvironmentP", "NoteContentController"]
+- !private ["So18UITraitEnvironmentP", "RichTextController"]
+- !private ["So18UITraitEnvironmentP", "ScreenInfo"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "itemWidth"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "noteTableView"]
+- !private ["So18UITraitEnvironmentP", "notesTableView"]
+- !private ["So18UITraitEnvironmentP", "pushViewController"]
+- !private ["So18UITraitEnvironmentP", "setNavigationBarHidden"]
+- !private ["So18UITraitEnvironmentP", "sideTableView"]
+- !private ["So18UITraitEnvironmentP", "updateTable"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CGPoint"]
+- !private ["So23UIUserActivityRestoringP", "NavigationMenuShared"]
+- !private ["So23UIUserActivityRestoringP", "NoteContentController"]
+- !private ["So23UIUserActivityRestoringP", "RichTextController"]
+- !private ["So23UIUserActivityRestoringP", "ScreenInfo"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dataSource"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "itemWidth"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "noteTableView"]
+- !private ["So23UIUserActivityRestoringP", "notesTableView"]
+- !private ["So23UIUserActivityRestoringP", "pushViewController"]
+- !private ["So23UIUserActivityRestoringP", "setNavigationBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "sideTableView"]
+- !private ["So23UIUserActivityRestoringP", "updateTable"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "dataSource"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "noteTableView"]
+- !private ["So6UIViewC", "updateTable"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CGPoint"]
+- !private ["So16UIViewControllerC", "NavigationMenuShared"]
+- !private ["So16UIViewControllerC", "NoteContentController"]
+- ["So16UIViewControllerC", "NotesTableView"]
+- !private ["So16UIViewControllerC", "RichTextController"]
+- !private ["So16UIViewControllerC", "ScreenInfo"]
+- ["So16UIViewControllerC", "SidebarTableView"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "createNewNote"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "itemWidth"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- ["So16UIViewControllerC", "notesTableView"]
+- !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "setNavigationBarHidden"]
+- ["So16UIViewControllerC", "sideTableView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["5HNote14ViewControllerC", "Bool"]
+- !private ["5HNote14ViewControllerC", "CGPoint"]
+- !private ["5HNote14ViewControllerC", "NavigationMenuShared"]
+- !private ["5HNote14ViewControllerC", "NoteContentController"]
+- ["5HNote14ViewControllerC", "NotesTableView"]
+- !private ["5HNote14ViewControllerC", "RichTextController"]
+- !private ["5HNote14ViewControllerC", "ScreenInfo"]
+- ["5HNote14ViewControllerC", "SidebarTableView"]
+- !private ["5HNote14ViewControllerC", "String"]
+- ["5HNote14ViewControllerC", "createNewNote"]
+- ["5HNote14ViewControllerC", "init"]
+- !private ["5HNote14ViewControllerC", "itemWidth"]
+- !private ["5HNote14ViewControllerC", "navigationController"]
+- ["5HNote14ViewControllerC", "notesTableView"]
+- ["5HNote14ViewControllerC", "sideTableView"]
+- ["5HNote14ViewControllerC", "viewDidLoad"]
+- ["5HNote14ViewControllerC", "viewWillAppear"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "noteTableView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateTable"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NavigationMenuShared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NoteContentController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RichTextController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ScreenInfo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noteTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notesTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNavigationBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showPopMenuSelecteWithFrameWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sideTableView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateTable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "dataSource"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "noteTableView"]
+- !private ["s21_ObjectiveCBridgeableP", "updateTable"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So7CGPointV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "5HNote21NoteContentControllerC"
+- !private "5HNote14NotesTableViewC"
+- !private "Sq"
+- !private "5HNote7PopMenuC"
+- !private "Sm"
+- !private "5HNote18RichTextControllerC"
+- !private "5HNote10ScreenInfoV"
+- !private "ST"
+- !private "5HNote16SidebarTableViewC"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "5HNote14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules/MarkdownView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers/MarkdownView-umbrella.h"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers/MarkdownView-Swift.h"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f6c0e786cd30734f2325b00eff441c29"

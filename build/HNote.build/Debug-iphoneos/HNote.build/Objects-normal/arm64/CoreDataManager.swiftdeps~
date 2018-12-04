@@ -1,0 +1,614 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataManager"
+provides-nominal:
+- "5HNote15CoreDataManagerC"
+provides-member:
+- ["5HNote15CoreDataManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "+"
+- !private "=="
+- !private ">"
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- !private "Bool"
+- "CastingPrecedence"
+- "CoreDataManager"
+- !private "Date"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int16"
+- !private "IntegerLiteralType"
+- !private "NSDate"
+- !private "NSEntityDescription"
+- !private "NSError"
+- !private "NSFetchRequest"
+- "NSManagedObjectContext"
+- "NSObject"
+- "NoteItem"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeInterval"
+- !private "UIApplication"
+- !private "fatalError"
+depends-member:
+- !private ["5HNote11AppDelegateC", "context"]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "sort"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "sort"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "sort"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "CoreDataManager"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "Int16"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "NoteItem"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "body"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "fetchRequest"]
+- !private ["s7CVarArgP", "getAllNote"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertNewObject"]
+- !private ["s7CVarArgP", "mark"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "saveContext"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sort"]
+- !private ["s7CVarArgP", "timeIntervalSince1970"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "sort"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["5HNote15CoreDataManagerC", "AppDelegate"]
+- !private ["5HNote15CoreDataManagerC", "Bool"]
+- ["5HNote15CoreDataManagerC", "CoreDataManager"]
+- !private ["5HNote15CoreDataManagerC", "Date"]
+- ["5HNote15CoreDataManagerC", "Int"]
+- !private ["5HNote15CoreDataManagerC", "Int16"]
+- !private ["5HNote15CoreDataManagerC", "NSDate"]
+- !private ["5HNote15CoreDataManagerC", "NSEntityDescription"]
+- !private ["5HNote15CoreDataManagerC", "NSError"]
+- !private ["5HNote15CoreDataManagerC", "NSFetchRequest"]
+- ["5HNote15CoreDataManagerC", "NSManagedObjectContext"]
+- ["5HNote15CoreDataManagerC", "NoteItem"]
+- ["5HNote15CoreDataManagerC", "String"]
+- !private ["5HNote15CoreDataManagerC", "TimeInterval"]
+- !private ["5HNote15CoreDataManagerC", "UIApplication"]
+- ["5HNote15CoreDataManagerC", "addNoteWith"]
+- ["5HNote15CoreDataManagerC", "context"]
+- !private ["5HNote15CoreDataManagerC", "context.storage"]
+- ["5HNote15CoreDataManagerC", "deleteAllNote"]
+- ["5HNote15CoreDataManagerC", "deleteOneNote"]
+- ["5HNote15CoreDataManagerC", "destoryOneNote"]
+- !private ["5HNote15CoreDataManagerC", "fatalError"]
+- ["5HNote15CoreDataManagerC", "getAllMarkNote"]
+- ["5HNote15CoreDataManagerC", "getAllNormalNote"]
+- ["5HNote15CoreDataManagerC", "getAllNote"]
+- ["5HNote15CoreDataManagerC", "getAllTrashNote"]
+- ["5HNote15CoreDataManagerC", "init"]
+- ["5HNote15CoreDataManagerC", "restoreOneNote"]
+- !private ["5HNote15CoreDataManagerC", "saveContext"]
+- ["5HNote15CoreDataManagerC", "shared"]
+- ["5HNote15CoreDataManagerC", "toMark"]
+- ["5HNote15CoreDataManagerC", "updateNote"]
+- ["s28CustomDebugStringConvertibleP", "CoreDataManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Int16"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "NoteItem"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "body"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "getAllNote"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertNewObject"]
+- !private ["s28CustomDebugStringConvertibleP", "mark"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "saveContext"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sort"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "sort"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "CoreDataManager"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Int16"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "NoteItem"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "fetchRequest"]
+- !private ["s23CustomStringConvertibleP", "getAllNote"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertNewObject"]
+- !private ["s23CustomStringConvertibleP", "mark"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "saveContext"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sort"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "sort"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "sort"]
+- !private ["SE", "timeIntervalSince1970"]
+- ["SQ", "CoreDataManager"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Int16"]
+- !private ["SQ", "NSEntityDescription"]
+- !private ["SQ", "NoteItem"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UIApplication"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "body"]
+- !private ["SQ", "context"]
+- !private ["SQ", "date"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "fetchRequest"]
+- !private ["SQ", "getAllNote"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertNewObject"]
+- !private ["SQ", "mark"]
+- !private ["SQ", "save"]
+- !private ["SQ", "saveContext"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sort"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "type"]
+- !private ["SQ", "userInfo"]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "sort"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "CoreDataManager"]
+- !private ["SH", "Date"]
+- !private ["SH", "Int16"]
+- !private ["SH", "NSEntityDescription"]
+- !private ["SH", "NoteItem"]
+- !private ["SH", "String"]
+- !private ["SH", "UIApplication"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "body"]
+- !private ["SH", "context"]
+- !private ["SH", "date"]
+- !private ["SH", "delegate"]
+- !private ["SH", "delete"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "fetch"]
+- !private ["SH", "fetchRequest"]
+- !private ["SH", "getAllNote"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "insertNewObject"]
+- !private ["SH", "mark"]
+- !private ["SH", "save"]
+- !private ["SH", "saveContext"]
+- !private ["SH", "shared"]
+- !private ["SH", "sort"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "type"]
+- !private ["SH", "userInfo"]
+- !private ["s5Int16V", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["SM", "sort"]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "insertNewObject"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So8NSCodingP", "timeIntervalSince1970"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "insertNewObject"]
+- !private ["So9NSCopyingP", "timeIntervalSince1970"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So6NSDateC", "timeIntervalSince1970"]
+- !private ["So19NSEntityDescriptionC", "insertNewObject"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So17NSFastEnumerationP", "insertNewObject"]
+- !private ["So20NSFetchRequestResultP", "body"]
+- !private ["So20NSFetchRequestResultP", "date"]
+- !private ["So20NSFetchRequestResultP", "fetchRequest"]
+- !private ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "mark"]
+- !private ["So20NSFetchRequestResultP", "type"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "body"]
+- !private ["So15NSManagedObjectC", "date"]
+- !private ["So15NSManagedObjectC", "fetchRequest"]
+- !private ["So15NSManagedObjectC", "id"]
+- !private ["So15NSManagedObjectC", "mark"]
+- !private ["So15NSManagedObjectC", "type"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CoreDataManager"]
+- !private ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "Int16"]
+- !private ["So8NSObjectC", "NSDate"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSManagedObjectContext"]
+- ["So8NSObjectC", "NoteItem"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addNoteWith"]
+- !private ["So8NSObjectC", "body"]
+- ["So8NSObjectC", "context"]
+- ["So8NSObjectC", "context.storage"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "delete"]
+- ["So8NSObjectC", "deleteAllNote"]
+- ["So8NSObjectC", "deleteOneNote"]
+- ["So8NSObjectC", "destoryOneNote"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "fetch"]
+- !private ["So8NSObjectC", "fetchRequest"]
+- ["So8NSObjectC", "getAllMarkNote"]
+- ["So8NSObjectC", "getAllNormalNote"]
+- ["So8NSObjectC", "getAllNote"]
+- ["So8NSObjectC", "getAllTrashNote"]
+- !private ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertNewObject"]
+- !private ["So8NSObjectC", "mark"]
+- ["So8NSObjectC", "restoreOneNote"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "saveContext"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "timeIntervalSince1970"]
+- ["So8NSObjectC", "toMark"]
+- !private ["So8NSObjectC", "type"]
+- ["So8NSObjectC", "updateNote"]
+- !private ["So8NSObjectC", "userInfo"]
+- ["So8NSObjectP", "CoreDataManager"]
+- !private ["So8NSObjectP", "Date"]
+- !private ["So8NSObjectP", "Int16"]
+- !private ["So8NSObjectP", "NSEntityDescription"]
+- !private ["So8NSObjectP", "NoteItem"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "body"]
+- !private ["So8NSObjectP", "context"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "fetchRequest"]
+- !private ["So8NSObjectP", "getAllNote"]
+- !private ["So8NSObjectP", "id"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertNewObject"]
+- !private ["So8NSObjectP", "mark"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "saveContext"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "timeIntervalSince1970"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So8NSObjectP", "userInfo"]
+- !private ["So14NSSecureCodingP", "timeIntervalSince1970"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- !private ["5HNote8NoteItemC", "body"]
+- !private ["5HNote8NoteItemC", "date"]
+- !private ["5HNote8NoteItemC", "deinit"]
+- !private ["5HNote8NoteItemC", "fetchRequest"]
+- !private ["5HNote8NoteItemC", "id"]
+- !private ["5HNote8NoteItemC", "mark"]
+- !private ["5HNote8NoteItemC", "type"]
+- !private ["Sj", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sk", "sort"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "sort"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "sort"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "context"]
+- !private ["So30UIPasteConfigurationSupportingP", "context"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "context"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "context"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "context"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "sort"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sort"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeIntervalSince1970"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CoreDataManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int16"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NoteItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "body"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAllNote"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertNewObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeIntervalSince1970"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sort"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5HNote11AppDelegateC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "5HNote15CoreDataManagerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s5Int16V"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- !private "So19NSEntityDescriptionC"
+- !private "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "5HNote8NoteItemC"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules/MarkdownView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers/MarkdownView-umbrella.h"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Headers/MarkdownView-Swift.h"
+- "/Users/hongweihui/Documents/IOS/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9feb9a164fd553b0c050d7c1f4297d4"

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/hongweihui/Desktop/IOS大作业_洪伟辉_18126278/HNote/build/Debug-iphoneos/MarkdownView/MarkdownView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/hongweihui/Desktop/IOS大作业_洪伟辉_18126278/HNote/build/Pods.build/Debug-iphoneos/MarkdownView.build/unextended-module.modulemap",
+    }]
+  }]
+}
